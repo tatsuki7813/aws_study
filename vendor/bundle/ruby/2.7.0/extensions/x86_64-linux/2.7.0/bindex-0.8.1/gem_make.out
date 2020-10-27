@@ -1,0 +1,15 @@
+current directory: /home/ec2-user/.rbenv/plugins/ruby-build/rails-aws/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/home/ec2-user/.rbenv/versions/2.7.2/bin/ruby -I /home/ec2-user/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201027-5693-1r3dtz7.rb extconf.rb
+creating Makefile
+
+current directory: /home/ec2-user/.rbenv/plugins/ruby-build/rails-aws/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/ec2-user/.rbenv/plugins/ruby-build/rails-aws/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/ec2-user/.rbenv/plugins/ruby-build/rails-aws/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20201027-5693-1dlk9h0/skiptrace/internal
